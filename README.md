@@ -1,2 +1,5 @@
 # XcodeCodeSnippets
-Code Snippets for Xcode
+放置于
+```
+~/Library/Developer/Xcode/UserData/CodeSnippets
+```
