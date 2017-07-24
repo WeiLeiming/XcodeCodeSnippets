@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strongSelf</string>
+	<string>view_did_load</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__strong __typeof(weakSelf) strongSelf = weakSelf;</string>
+	<string>- (void)viewDidLoad {
+    [super viewDidLoad];
+    &lt;#statements#&gt;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>ABDBFBB4-0D54-468A-9CD2-0B7AE59A2FC9</string>
+	<string>175B3B12-F316-480D-9CBA-AA524D36B94A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Create a strong reference to self for blocks</string>
+	<string>View Did Load</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Strong Self</string>
+	<string>View Did Load</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

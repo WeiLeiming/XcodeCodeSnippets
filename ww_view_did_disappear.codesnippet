@@ -3,25 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>viewdidload</string>
+	<string>view_did_disappear</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewDidLoad {
-    [super viewDidLoad];
+	<string>- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
     &lt;#statements#&gt;
-}
-</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>175B3B12-F316-480D-9CBA-AA524D36B94A</string>
+	<string>99304E42-B940-427B-A836-01E09D3A31E3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>View Did Load</string>
+	<string>View Did Disappear</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>View Did Load</string>
+	<string>View Did Disappear</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

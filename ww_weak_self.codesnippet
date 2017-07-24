@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>viewwilldissappear</string>
+	<string>weak_self</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-    &lt;#statements#&gt;
-}</string>
+	<string>__weak __typeof(self) weakSelf = self;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9BBB9B71-9F1B-4EE6-B3A5-8B5F9D2165D3</string>
+	<string>C1E4079D-D3BD-4712-8B51-43BA3400B093</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>View Will Disappear</string>
+	<string>Create a weak reference for self</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>View Will Disappear</string>
+	<string>Weak Self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

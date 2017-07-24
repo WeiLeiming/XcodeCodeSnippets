@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>viewdiddisappear</string>
+	<string>strong_self</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewDidDisappear:(BOOL)animated {
-    [super viewDidDisappear:animated];
-    &lt;#statements#&gt;
-}</string>
+	<string>__strong __typeof(weakSelf) strongSelf = weakSelf;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>99304E42-B940-427B-A836-01E09D3A31E3</string>
+	<string>ABDBFBB4-0D54-468A-9CD2-0B7AE59A2FC9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>View Did Disappear</string>
+	<string>Create a strong reference to self for blocks</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>View Did Disappear</string>
+	<string>Strong Self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
