@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>NSStringDrawingOptions options = NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading;
 NSDictionary *attributes = @{ NSFontAttributeName : &lt;#font#&gt; };
-CGSize size = [&lt;#text string#&gt; boundingRectWithSize:CGSizeMake(&lt;#max width#&gt;, CGFLOAT_MAX) options:options attributes:attributes context:nil].size;
+CGSize size = [&lt;#string#&gt; boundingRectWithSize:CGSizeMake(&lt;#max width#&gt;, CGFLOAT_MAX) options:options attributes:attributes context:nil].size;
 CGFloat height = size.height;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BCBF3065-2A64-4FE5-A71B-CC72A6B3B667</string>
